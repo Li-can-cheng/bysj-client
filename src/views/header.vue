@@ -149,7 +149,7 @@
           width: 200px;
           z-index: 5;
           background: rgba(75, 154, 200, 1);
-          transition: .5s cubic-bezier(0, 1, 0.5, 1);
+          //transition: .5s cubic-bezier(0, 1, 0.5, 1);
           border-radius: 0 0 8px 8px;
 
           > li > a {
@@ -266,7 +266,7 @@
             }
         },
         computed: {
-    
+
         },
         methods: {
             searchKeyword(){
@@ -289,7 +289,7 @@
                     this[target] = res.data;
                 });
             },
-    
+
         },
         created() {
                 this.loadListMenu('xinwenfenlei','listMenuxinwenfenlei');
